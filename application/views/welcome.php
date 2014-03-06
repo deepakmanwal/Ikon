@@ -1,0 +1,1 @@
+Hi, <strong><?php echo $user->first_name." ".$user->last_name; ?></strong>! You are logged in now. <?php echo anchor('/auth/logout/', 'Logout'); ?>

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ITCAvantGardeGothicBookRegular';
+    src: url('avantgardeitcbybt-book.eot');
+    src: url('avantgardeitcbybt-book.eot') format('embedded-opentype'),
+         url('avantgardeitcbybt-book.woff') format('woff'),
+         url('avantgardeitcbybt-book.ttf') format('truetype'),
+         url('avantgardeitcbybt-book.svg#ITCAvantGardeGothicBookRegular') format('svg');
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BodoniBkBTBook';
+    src: url('05375_bodonbk_.eot');
+    src: url('05375_bodonbk_.eot') format('embedded-opentype'),
+         url('05375_bodonbk_.woff') format('woff'),
+         url('05375_bodonbk_.ttf') format('truetype'),
+         url('05375_bodonbk_.svg#BodoniBkBTBook') format('svg');
+}

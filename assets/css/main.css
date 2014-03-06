@@ -1,0 +1,492 @@
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+   
+@font-face {
+		font-family: 'BirchStdRegular';
+		src: url('birchstd.eot');
+		src: url('birchstd.eot') format('embedded-opentype'),
+         url('birchstd.woff') format('woff'),
+         url('birchstd.ttf') format('truetype'),
+         url('birchstd.svg#BirchStdRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'BodoniBkBTBook';
+    src: url('05375_bodonbk_.eot');
+    src: url('05375_bodonbk_.eot') format('embedded-opentype'),
+         url('05375_bodonbk_.woff') format('woff'),
+         url('05375_bodonbk_.ttf') format('truetype'),
+         url('05375_bodonbk_.svg#BodoniBkBTBook') format('svg');
+}
+
+@font-face {
+    font-family: 'ITCAvantGardeGothicBookRegular';
+    src: url('avantgardeitcbybt-book.eot');
+    src: url('avantgardeitcbybt-book.eot') format('embedded-opentype'),
+         url('avantgardeitcbybt-book.woff') format('woff'),
+         url('avantgardeitcbybt-book.ttf') format('truetype'),
+         url('avantgardeitcbybt-book.svg#ITCAvantGardeGothicBookRegular') format('svg');
+}
+
+*,html{padding:0; margin:0;}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+background-image:url(../img/body-bg.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+background-size:100%;
+line-height: 1.4;
+}
+
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   .left{float:left; overflow:hidden;}
+   .right{float:right; overflow:hidden;}
+   .clear{clear:both; overflow:hidden;}
+   p{margin:0 !important;}
+
+/* Sign up page starts*/
+
+img[role="ikon-logo"]{position: absolute;top:19px; margin-left:46px;}
+
+.bg{background:url(../img/container-bg.png); border-radius:15px; margin-top:126px; margin-bottom:8%; padding-bottom:2%;}
+ 
+h1{font-family: 'BirchStdRegular'; font-size:107px; line-height:96%; color:#000 !important; text-shadow: 0 3px 3px #ebe4d1, 0 -3px 3px #ebe4d1, 3px 0 3px #ebe4d1, -3px 0 3px #ebe4d1!important; font-weight:bold !important; margin-bottom:0!important; }
+ 
+.ikon{padding-top:1.4%; padding-left:1%; width:18.2%;}
+
+.ikon img{width:100%;}
+
+form{font-family: 'BirchStdRegular' !important; color:#393b8e; text-shadow: 0 3px 3px #ebe4d1, 0 -3px 3px #ebe4d1, 3px 0 3px #ebe4d1, -3px 0 3px #ebe4d1!important; }
+
+section.form{width:100%; float:left; padding-left:6.7%; background:url(../img/seprator.png)repeat-y right; margin-top:44px;}
+
+form div{clear:both; overflow:hidden;}
+
+form div input,form div select{font-size:1.5em;}
+
+
+form label{font-size:2.5em !important;display:block; float:left; width:29%; font-weight:bold;}
+
+form label[role="email"]{width:29%;  font-size: 1.7em !important;    margin-top: 1.5%;}
+
+form p{font-size:2em !important;font-weight:bold;}
+
+form input[type="text"],form input[type="password"]{ padding:1%; width:59%; margin-top:2%; border:none; background:url(../img/text-bg.png) repeat-x;}
+
+form input[role="email"]{width:30%; margin-right:0.5%;}
+
+form div.button p.white{font-family: 'BodoniBkBTBook'; color:#FBF9F8; text-shadow:0px 0px 5px #000; font-size:1.4em !important;}
+
+form div.button p{font-family: 'BodoniBkBTBook'; text-shadow:0px 0px 5px #fff; font-size:1.5em !important;}
+
+.select-box{float:left; padding-top:2%; clear:none;}
+
+.button input[type="image"]{ margin-right:3%}
+
+section.account{width:100%; float:left; padding-left:3%; padding-top:3%;}
+
+section.account h2{font-family: 'BirchStdRegular'; font-size:4em; color:#245c20 !important; text-shadow: 0 3px 3px #ebe4d1, 0 -3px 3px #ebe4d1, 3px 0 3px #ebe4d1, -3px 0 3px #ebe4d1!important; line-height:59px; padding-top:12%;}
+
+section.account h2.like{font-family: 'BodoniBkBTBook'; padding-top:0;}
+
+section.account  form{width:100%; float:left; padding-top:0;}
+
+section.account  form input[type="text"]{width:94%; padding:2%;}
+
+section.account  form div{clear:none;}
+
+section.account  form label{font-size:2em !important;display:block; font-weight:bold; width:auto; float:none;}
+
+section.account  form input[type="text"]{width:98%; padding:2%;}
+
+section.account  form div div{margin-right:1%; width:37%;}
+
+section.account  form div div.btn{margin-right:1%; width:22%; padding-top:6.2%;}
+
+section.account div p.remember{font-family: 'BodoniBkBTBook'; text-shadow:0px 0px 5px #fff; font-size:1.5em !important; color:#2e6127;}
+
+section.account div p.forgot{font-family: 'BodoniBkBTBook';color:#353b90; font-size:1.5em !important; }
+
+section.account div img{margin-right:5.8%;}
+
+.social-icons{width:34%;}
+
+.social-icons img{width:44%;}
+/* Sign up page ends */
+
+ 
+/* dashboad page starts*/
+#down-btn{position:absolute;}
+#icons{background: url(../img/icon-group.png) no-repeat;
+padding-top: 11px;
+margin-top: 36px;
+background-position-y: -11px;}
+
+.scrollbar-bg{background:url(../img/scroll-bg.png) no-repeat right top; overflow:hidden; }
+
+.db-container-bg{
+width:76.7%;
+ margin: 10% auto 0 14%;
+background-image:url(../img/db-container-bg.png);
+background-repeat: no-repeat;
+background-position: top center;
+background-size:100%;
+font-size: 1em;
+height:651px;
+
+}
+
+.image{
+width:65%;
+padding-top:2%;
+padding-left:4.5%;
+overflow:hidden;
+float:left;
+}
+.logout{
+font-size: 13px;
+color: #fff;
+float: right;
+margin-top: 30px;
+padding: 0px 1%;
+}
+
+.image img{border:6px solid #fff; border-radius:50%; float:left; margin-top:13px;}
+
+.image p{background:url(../img/name_bg.png); font-family: 'ITCAvantGardeGothicBookRegular'; color:#fff;   font-size: 2.7em;    font-weight: bold;    margin-top: 16.1% !important;    width: 60%; float:left;	margin-left:3% !important; border-radius:0 0 23px 0;}
+
+.drop-down{ position:relative;width:6.1%; float:left; padding-bottom: 0%; margin-top:9%; margin-left:22%;}
+
+.drop-down img[role="volume"]{margin-left: 17%;    margin-top: 1%;    width: 54%;}
+
+.drop-down img[role="tools"]{margin-left: 17%;   margin-top:12%; width: 54%;}
+
+.drop-down img[role="download"]{margin-left: 19%;    margin-top:16%;   width: 54%; margin-bottom:10%;}
+
+.left-section{width:27%; padding-left:7%;}
+
+.social-icons-2 {width:100%; overflow:hidden; padding-top:13%; padding-bottom:2%; border-bottom:6px solid #fff;}
+
+.social-icons-2 img{width:20%; margin-right:5%;}
+
+.left-nav{}
+
+.left-nav ul {list-style:none; padding-left:0;}
+
+.left-nav ul li{ background-color:#272221; padding:1% 2%; margin:1%; font-family: 'ITCAvantGardeGothicBookRegular';    font-size: 1.3em;
+    font-weight: bold;transition: .3s all; }
+	
+.left-nav ul li.active{background-color:#EC8D14;}
+
+.left-nav ul li:hover{background-color:#EC8D14;}
+
+.left-nav ul li a{text-decoration:none; color:#fff; display:block;  }
+
+.left-nav ul li a:hover{background-color:#EC8D14;	}
+
+.right-section{overflow:auto; width:65%; margin-top:3%; height:295px;}
+
+.search-box{ float:right; width:42%; overflow:hidden;}
+
+.search-box input[type="text"]{background:#fff url(../img/search-icon.jpg) no-repeat left; border:0; padding:4% 0 2% 5%; width:62%; margin-top:0.5%; font-size:0.6em; color:b3b5b8;	}
+
+.activity-area{overflow:hidden; width:100%; margin-top:6% ;font-family: 'ITCAvantGardeGothicBookRegular'; font-size:0.8em; font-weight:bold;}
+
+.activity{overflow:hidden; width:65%; margin-left:4%; float:left; margin-right:2%;}
+
+.activity ul{list-style:none; padding-left:0; overflow:hidden; background:#fefefe; padding:0 2%; margin:0;}
+
+.activity ul li{overflow:hidden; padding:2% 0; border-bottom:2px solid #ccc;}
+
+.activity ul li:last-child{border:0;}
+
+.activity ul li img{margin-right:2%;}
+
+.activity h2{color:#fff; background-color:#82cadf; padding:5px 2%; font-family: 'ITCAvantGardeGothicBookRegular'; margin-top:0 !important; font-size:19px; margin-bottom:0 !important;}
+
+.right-divs{ overflow:hidden; float:left; width:28%}
+
+.wallet{clear:both; overflow:hidden; background:#fff; font-family: 'ITCAvantGardeGothicBookRegular';}
+
+.wallet h2{background-color:#e0e207; padding:2.6%; font-family: 'ITCAvantGardeGothicBookRegular'; color:#fff; padding-left:5%; margin-top:0 !important; font-size:18px; margin:0;}
+
+.wallet p{padding-left:5%; font-weight:bold;	}
+
+.notifiation{clear:both; overflow:hidden; font-family: 'ITCAvantGardeGothicBookRegular'; }
+
+.notification h2{background:#ec8d14; color:#fff; margin-top:5%; padding:2.6% 5%; font-family: 'ITCAvantGardeGothicBookRegular'; font-size:18px;}
+
+.notification p{padding-left:5%;font-family: 'ITCAvantGardeGothicBookRegular'; }
+
+.notification{background:#fff; padding-bottom:7%;}
+
+.notification span{font-size:0.8em; line-height:11px; padding-left:7%; font-weight:bold; font-family: 'ITCAvantGardeGothicBookRegular'; }
+
+.notification a{font-size:0.7em; line-height:12px;display:block; text-decoration:none; padding-left:7%; font-weight:bold;font-family: 'ITCAvantGardeGothicBookRegular'; }
+
+.note-blog{ padding-bottom:1%; border-bottom:1px solid #353535; margin-bottom:2%; padding-top:2%;}
+
+.note-blog:last-child{border:0}
+
+.txt-matter p{font-size:0.8em}
+
+.notification  .image-thmb{width:25%;}
+
+.dash-btns{padding-top:6%;}
+
+.dash-btns img{width:;}
+
+section.d-footer{clear:both; overflow:hidden; padding-left:5%; width: 100%; margin: 0% auto 0 7%;}
+
+section.d-footer .foot-icons{float:left; width:11%; padding-right:3%;}
+
+section.d-footer .foot-icons img{width:100%;}
+
+/* dashboad page ends*/
+
+/* user profile page starts*/
+.user-profile{overflow:hidden; width:93%; margin-left:4%; float:left; margin-right:2%;}
+
+.user-profile ul{list-style:none; padding-left:0; overflow:hidden; background:#fefefe; padding:0 2%; margin:0;}
+
+.user-profile ul li{overflow:hidden; padding:2% 0; border-bottom:2px solid #ccc;}
+
+.user-profile ul li:last-child{border:0;}
+
+.user-profile ul li img{margin-right:2%;}
+
+.user-profile h2{color:#fff; background-color:#82cadf; padding:5px 4%; font-family: 'ITCAvantGardeGothicBookRegular'; margin-top:0 !important; font-size:19px; margin-bottom:0 !important;}
+
+.user-profile h5{font-family: 'ITCAvantGardeGothicBookRegular'; margin-top:0; font-weight:bold; font-style:italic; font-size:13px;}
+
+.img-icon{overflow:hidden; width:8%; margin-right:20px;}
+
+.act-mat{overflow:hidden; width:70%;}
+
+.img-btn{overflow:hidden; width:17%; margin-top:9%;}
+
+/*user profile page ends*/
+
+/* edit user profile page starts*/
+.edit-user{overflow:hidden; background:#fff; padding-bottom:20px}
+
+
+
+.activities-button{padding-top: 17px;padding-right: 114px;}
+
+.user-desc{overflow:hidden; width:50%;}
+
+.user-element{overflow:hidden; padding:4px 21px 0 21px;}
+
+.user-element label{font-size:15px; font-weight:normal; padding: 4px 0 0 0; margin:0; display:block;}
+
+.user-element p{font-size:15px; font-weight:normal; padding: 4px 0 0 0; margin:0;}
+
+.user-element a{color:#796ff3; text-decoration:none; margin-left:12px;}
+
+.user-element input[type="text"]{border:1px solid #000; box-shadow: 0px 0px 3px #888888 inset; width:203px;}
+
+.places input[type="text"]{border:1px solid #000; box-shadow: 0px 0px 3px #888888 inset; width:203px;}
+
+.places{overflow:hidden;}
+
+.places ul li img{float:left;}
+
+.places ul li p{float:left; padding:0; font-size:13px;}
+
+.places ul li a{color:#796ff3; text-decoration:none; margin-left:12px; font-weight:normal; font-size:13px; float:right;}
+
+.places a{color:#796ff3; text-decoration:none;}
+
+.places p{font-size:15px; font-weight:normal; padding: 4px 0 0 0; margin:0; margin-left:12px;}
+
+.places hr{margin-top:10px; margin-bottom:0;}
+/* edit user profile page ends*/
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
